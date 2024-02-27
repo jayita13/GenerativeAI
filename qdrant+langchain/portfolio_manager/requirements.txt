@@ -1,0 +1,11 @@
+langchain==0.1.9
+langchain-community==0.0.24
+langchain-core==0.1.27
+yfinance==0.2.37
+streamlit==1.31.1
+qdrant_client==1.7.3
+python-dotenv==1.0.1
+langchain-google-genai==0.0.9
+google-generativeai==0.3.2
+selenium==4.18.1
+unstructured==0.11.8
