@@ -1,6 +1,6 @@
 Reference - https://rito.hashnode.dev/daily-portfolio-summarizer-with-langchain-qdrant-and-mistral-ai
 
-Tweaking -> LLM - GEMINI, DATA - latest
+Tweaking -> LLM - GEMINI, Embedding - PALM, DATA - latest
 
 To run application
 
