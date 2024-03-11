@@ -74,7 +74,8 @@ def get_qdrant_retriever(source_info):
 def report_analysis(portfolio_stock):
     company_name = portfolio_stock["company_name"]
     template = "You are a stock analyst analyzing " + company_name + "'s quarterly earnings report." + """
-        Based on the report summarize the sentiment towards the company and its performance. Identify key positive and negative aspects, focusing on financial results, future outlook, and investment potential. 
+        Based on the report summarize the sentiment towards the company and its performance. Identify \
+        key positive and negative aspects, focusing on financial results, future outlook, and investment potential. 
 
         Additionally, answer the following questions:
         1/ Does the company meet or exceed analyst expectations? 
