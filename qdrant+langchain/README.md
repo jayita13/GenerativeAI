@@ -14,7 +14,7 @@ To run streamlit app
 streamlit run streamlit_app.py
 ```
 
-To run gradio app -> Uncomment last line demo.launch()
+To run gradio app -> Uncomment last line ```demo.launch()```
 ```
 python gradio_app.py
 ```
