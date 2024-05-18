@@ -1,6 +1,6 @@
 RAG use-case implementation using Llamaindex
 
-[Updated Colab notebook](https://colab.research.google.com/drive/10A9OeLQUQyHXf4KciA-VfWwa9Unv9nh9?usp=sharing)
+[Updated Colab notebook with Llama3](https://colab.research.google.com/drive/10A9OeLQUQyHXf4KciA-VfWwa9Unv9nh9?usp=sharing)
 
 Supercharge your RAG pipeline with the following:
 
