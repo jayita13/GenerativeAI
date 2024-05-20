@@ -20,3 +20,7 @@ To run application:
 pip install -r requirements.txt 
 chainlit run app.py 
 ```
+
+[Follow-up Medium blog/article](https://itsjb13.medium.com/building-a-rag-chatbot-using-llamaindex-groq-with-llama3-chainlit-b1709f770f55)
+
+[Hosted Huggingface App on Spaces](https://huggingface.co/spaces/itsJB/Finance_Knowledge_Bot)
