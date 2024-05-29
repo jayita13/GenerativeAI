@@ -4,5 +4,11 @@ Phoenix is an open-source observability library designed for experimentation, ev
 
 [Official Docs](https://docs.arize.com/phoenix)
 
+To run application
+```
+  pip install -r requirements.txt
+  chainlit run app.py
+```
+
 ![image](https://github.com/jayita13/GenerativeAI/assets/64038928/67add0bd-fd56-478b-a982-2eb48861c7e5)
 ![image](https://github.com/jayita13/GenerativeAI/assets/64038928/db2c8631-5b2f-4b3e-8c15-503aa4280f92)
