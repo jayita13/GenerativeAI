@@ -6,15 +6,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 import chainlit as cl
-# from llama_index.core import global_handler
-# from llama_index.core.callbacks import CallbackManager
-# from llama_index.core import set_global_handler
-
-# set_global_handler("langfuse")
-
-# global_handler.set_trace_params(
-#   session_id="first-session-01"
-# )
 
 # Phoenix can display in real time the traces automatically
 # collected from your LlamaIndex application.
