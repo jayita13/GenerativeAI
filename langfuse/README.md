@@ -3,6 +3,12 @@ Traces, evals, prompt management and metrics to debug and improve LLM applicatio
 
 [Official Page](https://langfuse.com/)
 
+To run application 
+```
+  pip install -r requirements.txt
+  chainlit run app.py
+```
+
 Dashboard
 
 ![image](https://github.com/jayita13/GenerativeAI/assets/64038928/64e0c750-0fc0-42f1-8156-df8f71ae50f1)
