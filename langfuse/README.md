@@ -9,7 +9,7 @@ To run application
   chainlit run app.py
 ```
 
-Dashboard
+Dashboard head onto ```cloud.langfuse.com```
 
 ![image](https://github.com/jayita13/GenerativeAI/assets/64038928/64e0c750-0fc0-42f1-8156-df8f71ae50f1)
 ![image](https://github.com/jayita13/GenerativeAI/assets/64038928/40872361-7a96-45e3-85d1-0682984ae4e7)
