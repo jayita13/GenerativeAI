@@ -1,10 +1,4 @@
-llama-index
-# llama-index-llms-ollama
-llama-index-embeddings-huggingface
-llama-index-llms-groq
-llama-index-vector-stores-neo4jvector
-python-dotenv
-# Optional
-llama-index-graph-stores-neo4j
-llama-index-graph-stores-nebula
+llama-index==0.10.44
+llama-index-vector-stores-neo4jvector==0.1.4
+python-dotenv==1.0.1
 pyvis==0.3.2
