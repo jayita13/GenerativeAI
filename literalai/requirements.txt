@@ -1,0 +1,6 @@
+python-dotenv>=1.0.1
+literalai>=0.0.503
+llama-index>=0.10.34
+llama-index-llms-groq==0.1.4
+groq==0.9.0
+llama-index-embeddings-huggingface==0.2.0
