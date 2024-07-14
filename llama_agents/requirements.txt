@@ -1,0 +1,3 @@
+llama-index
+llama-agents
+python-dotenv==1.0.1
