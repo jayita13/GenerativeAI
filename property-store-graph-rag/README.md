@@ -13,5 +13,6 @@ Native property graph databases, such as Neo4j, are a logical choice for impleme
 
 - Developer-friendly Code: Property graphs support an intuitive and expressive ISO query language standard, GQL, which means you have less code to write, debug, and maintain than SQL or SPARQL. Neo4j’s Cypher is the most widely used implementation of GQL.
 
+Difference between Triplet Store(RDF) & Property Graph -> https://neo4j.com/blog/rdf-vs-property-graphs-knowledge-graphs/
 
 More in depth -> https://docs.llamaindex.ai/en/latest/module_guides/indexing/lpg_index_guide/
