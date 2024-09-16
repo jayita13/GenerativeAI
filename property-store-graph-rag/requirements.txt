@@ -1,0 +1,8 @@
+llama-index
+python-dotenv==1.0.1
+llama-index-llms-vertex==0.3.3
+llama-index-embeddings-vertex==0.2.0
+pyvis==0.3.2
+llama-index-graph-stores-neo4j
+neo4j
+llama-index-vector-stores-neo4jvector==0.2.1
