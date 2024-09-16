@@ -12,3 +12,6 @@ Native property graph databases, such as Neo4j, are a logical choice for impleme
 - Performance: Property graphs offer superior query performance compared to alternatives like RDF databases or relational databases, especially for complex traversals and many-to-many relationships. This performance comes from storing the relationships between entities directly in the database rather than re-generating them using joins in queries. A native property graph database traverses relationships by following pointers in memory, making queries that traverse even complex chains of many relationships very fast.
 
 - Developer-friendly Code: Property graphs support an intuitive and expressive ISO query language standard, GQL, which means you have less code to write, debug, and maintain than SQL or SPARQL. Neo4j’s Cypher is the most widely used implementation of GQL.
+
+
+More in depth -> https://docs.llamaindex.ai/en/latest/module_guides/indexing/lpg_index_guide/
