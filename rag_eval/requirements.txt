@@ -1,11 +1,3 @@
-llama-index
+llama-index==0.11.10
 python-dotenv==1.0.1
-llama-index-graph-stores-neo4j
-llama-index-llms-groq
-llama-index-embeddings-huggingface
-graspologic 
-numpy 
-scipy
-
-# evals
-spacy
+spacy==3.7.6
