@@ -2,10 +2,10 @@
 Experimentation
 
 - LLMs
-- Frameworks - Langchain / llamaindex
+- Frameworks - Langchain / Llamaindex
 - Vector DBs
 - RAG systems
-- Evaluations
+- Evaluations, Monitoring, Observability
 - AI Agents
 - Graph RAG
 - Hybrid RAG
