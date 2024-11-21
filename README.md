@@ -2,7 +2,7 @@
 Experimentation
 
 <p>
-  <img align="right" src="https://static.liveperson.com/static-assets/2023/04/14142148/Blog_Generative_AI_small_2x.jpg"/>
+  <img align="right" height="300" width="500" src="https://static.liveperson.com/static-assets/2023/04/14142148/Blog_Generative_AI_small_2x.jpg"/>
 </p>
 
 - LLMs
