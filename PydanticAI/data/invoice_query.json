@@ -1,0 +1,8 @@
+{
+    "ticket_id": "INV-001",
+    "customer_name": "John Doe",
+    "email": "john.doe@example.com",
+    "query_type": "invoice",
+    "description": "I need a copy of the invoice for my order #ORD-2024-123. I can't find it in my email.",
+    "order_id": "ORD-2024-123"
+} 

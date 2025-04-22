@@ -1,0 +1,8 @@
+{
+    "ticket_id": "PRD-001",
+    "customer_name": "Alice Johnson",
+    "email": "alice.j@example.com",
+    "query_type": "product",
+    "description": "I'm interested in the Pro Model X-1000. Does it come with a warranty? What are the technical specifications?",
+    "order_id": null
+} 

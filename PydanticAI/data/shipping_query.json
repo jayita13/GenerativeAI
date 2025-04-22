@@ -1,0 +1,8 @@
+{
+    "ticket_id": "SHP-001",
+    "customer_name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "query_type": "shipping",
+    "description": "What is your shipping policy for international orders? I'm based in Canada and want to know the estimated delivery time.",
+    "order_id": null
+} 
