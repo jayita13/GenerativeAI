@@ -1,0 +1,11 @@
+dspy-ai
+groq
+python-dotenv==1.1.0
+attachments
+langchain-community
+langchain-core
+chromadb
+transformers>=4.51.0
+sentence-transformers>=2.7.0
+pypdf
+langchain-huggingface
