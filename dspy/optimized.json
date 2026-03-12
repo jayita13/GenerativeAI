@@ -1,0 +1,56 @@
+{
+  "predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Sarah buys 20 pencils on Monday. Then she buys 18 more pencils on Tuesday. On Wednesday she buys triple the number of pencils she did on Tuesday. How many pencils does she have?",
+        "reasoning": "First, we need to find out how many pencils Sarah bought on Wednesday. Since she bought triple the number of pencils she did on Tuesday, and she bought 18 pencils on Tuesday, we multiply 18 by 3 to get 54 pencils. Then, we add up all the pencils: 20 (Monday) + 18 (Tuesday) + 54 (Wednesday) = 92 pencils.",
+        "answer": "92"
+      },
+      {
+        "augmented": true,
+        "question": "Bridget counted 14 shooting stars in the night sky.  Reginald counted two fewer shooting stars than did Bridget, but Sam counted four more shooting stars than did Reginald.  How many more shooting stars did Sam count in the night sky than was the average number of shooting stars observed for the three of them?",
+        "reasoning": "To find out how many more shooting stars Sam counted than the average number of shooting stars observed by the three, we need to first calculate each person's total. Bridget counted 14, Reginald counted 2 fewer (12), and Sam counted 4 more than Reginald (16). The average is then calculated as (14 + 12 + 16) / 3 = 42 / 3 = 14. Then we subtract the average from Sam's total to find out how many more he counted: 16 - 14 = 2.",
+        "answer": "2"
+      },
+      {
+        "augmented": true,
+        "question": "Amaya scored 20 marks fewer in Maths than she scored in Arts. She also got 10 marks more in Social Studies than she got in Music. If she scored 70 in Music and scored 1/10 less in Maths, what's the total number of marks she scored in all the subjects?",
+        "reasoning": "Let's break down the information given:\n- Amaya scored 70 in Music.\n- She scored 10 marks more in Social Studies than she got in Music, so she scored 70 + 10 = 80 in Social Studies.\n- She scored 1/10 less in Maths than her score in Music. Since 1/10 of 70 is 7, she scored 70 - 7 = 63 in Maths.\n- She scored 20 marks fewer in Maths than Arts. So, she scored 63 + 20 = 83 in Arts.\n\nNow, let's add up the scores:\nMusic: 70\nSocial Studies: 80\nMaths: 63\nArts: 83\n\nTotal score: 70 + 80 + 63 + 83 = 296",
+        "answer": "296"
+      },
+      {
+        "question": "The average score on last week's Spanish test was 90.  Marco scored 10% less than the average test score and Margaret received 5 more points than Marco.  What score did Margaret receive on her test?",
+        "gold_reasoning": "The average test score was 90 and Marco scored 10% less so 90*.10 = <<90*.10=9>>9 points lower The average test score was 90 and Marco scored 9 points less so his test score was 90-9 = <<90-9=81>>81 Margret received 5 more points than Marco whose test score was 81 so she made 5+81 = <<5+81=86>>86 on her test",
+        "answer": "86"
+      }
+    ],
+    "signature": {
+      "instructions": "Given the fields `question`, produce the fields `answer`.",
+      "fields": [
+        {
+          "prefix": "Question:",
+          "description": "${question}"
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "${answer}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.0.3",
+      "cloudpickle": "3.1"
+    }
+  }
+}
